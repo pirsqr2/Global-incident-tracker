@@ -214,5 +214,29 @@ window.INCIDENTS = [
     description: "RFE/RL reported Ukrainian drone strikes in and around Tuapse, home to a major Black Sea oil port and refinery complex.",
     url: "https://www.rferl.org/a/ukraine-russia-drone-strikes-tuapse/33736220.html",
     color: "#8ab6ff"
+  },
+  {
+    id: "haripur-pipeline",
+    continent: "Asia",
+    lng: 72.89,
+    lat: 33.82,
+    title: "Gas pipeline explosion in Haripur",
+    subtitle: "Hattar Industrial Estate, Haripur district, Pakistan",
+    date: "April 17, 2026",
+    description: "The Times of India reported that a gas pipeline explosion at Hattar Industrial Estate in Khyber Pakhtunkhwa triggered a massive fire and killed at least eight people.",
+    url: "https://timesofindia.indiatimes.com/world/pakistan/eight-killed-as-gas-pipeline-explodes-in-pakistans-khyber-pakhtunkhwa/articleshow/130317757.cms",
+    color: "#ff936e"
+  },
+  {
+    id: "homalin-port",
+    continent: "Asia",
+    lng: 94.91,
+    lat: 24.87,
+    title: "Fuel tanker blast at Myanmar port",
+    subtitle: "Homalin, Sagaing Region, Myanmar",
+    date: "April 21, 2026",
+    description: "Reporting carried by Yahoo said at least two people were killed and others injured after an oil tanker caught fire during fuel transfer at the port of Homalin.",
+    url: "https://www.yahoo.com/news/articles/least-two-dead-myanmar-port-082221755.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAGWO4GawrHJXiD23TkbSblzU2sjy6q77-F90AExGHniNGaFzfFpgNtrDIlJhYEhTf2G0QdSskf6JrkgMyUyu2nN5ZjfPAPbuyGCC_2DI6cbUj2v33-Wh1mekm1F7DrJYuaM1iNn_SPobwFBoCw36yRw2912GeLs5CqbayZXMs8br",
+    color: "#7ad7ff"
   }
 ];
