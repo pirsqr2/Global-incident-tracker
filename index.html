@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Incident Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <section class="hero">
+      <div>
+        <div class="eyebrow">Global Energy Incident Map</div>
+      </div>
+      <p class="hero-copy">A clean interface for recent incidents around the globe.</p>
+    </section>
+
+    <section class="globe-panel">
+      <canvas id="globe"></canvas>
+
+      <div class="globe-callout">
+        <div class="callout-label">Incidents</div>
+        <div class="callout-title">Click a glowing dot to open the incident details.</div>
+        <div id="incident-count" class="callout-copy"></div>
+      </div>
+
+      <div id="incident-popup" class="incident-popup" hidden>
+        <div class="popup-head">
+          <div>
+            <div id="popup-title" class="popup-title"></div>
+            <div id="popup-subtitle" class="popup-subtitle"></div>
+          </div>
+          <button id="popup-close" type="button" class="popup-close" aria-label="Close incident popup">x</button>
+        </div>
+        <div id="popup-date" class="popup-date"></div>
+        <div id="popup-description" class="popup-description"></div>
+        <a id="popup-link" href="#" target="_blank" rel="noreferrer" class="popup-link">Open source</a>
+      </div>
+
+      <div class="zoom-controls">
+        <button id="zoom-in" type="button" class="zoom-button" aria-label="Zoom in">+</button>
+        <button id="zoom-out" type="button" class="zoom-button" aria-label="Zoom out">-</button>
+      </div>
+
+      <div class="globe-hint">Drag to rotate · Scroll to zoom · Click a marker for details</div>
+    </section>
+
+    <section class="feed-section">
+      <div class="feed-header">
+        <div>
+          <div class="eyebrow">Incident Feed</div>
+          <h2>Incident containers outside the globe</h2>
+        </div>
+        <div class="feed-copy">Each card mirrors the globe data and links to the source article.</div>
+      </div>
+
+      <div id="incident-cards" class="incident-grid"></div>
+    </section>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
+  <script src="incidents-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
