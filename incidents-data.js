@@ -238,5 +238,17 @@ window.INCIDENTS = [
     description: "Reporting carried by Yahoo said at least two people were killed and others injured after an oil tanker caught fire during fuel transfer at the port of Homalin.",
     url: "https://www.yahoo.com/news/articles/least-two-dead-myanmar-port-082221755.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAGWO4GawrHJXiD23TkbSblzU2sjy6q77-F90AExGHniNGaFzfFpgNtrDIlJhYEhTf2G0QdSskf6JrkgMyUyu2nN5ZjfPAPbuyGCC_2DI6cbUj2v33-Wh1mekm1F7DrJYuaM1iNn_SPobwFBoCw36yRw2912GeLs5CqbayZXMs8br",
     color: "#7ad7ff"
+  },
+  {
+    id: "erbil-refinery-fire",
+    continent: "Asia",
+    lng: 44.0092,
+    lat: 36.1911,
+    title: "Oil refinery fire in Erbil",
+    subtitle: "Erbil, Kurdistan Region, Iraq",
+    date: "April 22, 2026",
+    description: "Times of India and Caliber.Az reported large explosions and a major fire at an oil refinery site in Erbil amid heightened Iran-related tensions. The exact cause and full extent of damage were not yet officially confirmed.",
+    url: "https://timesofindia.indiatimes.com/videos/international/on-cam-kurdistan-oil-refinery-on-fire-amid-explosions-as-iran-tensions-rise-erbil-iraq/videoshow/130440550.cms",
+    color: "#ff9d66"
   }
 ];
